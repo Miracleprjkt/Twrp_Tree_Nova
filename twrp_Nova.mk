@@ -16,14 +16,14 @@ $(call inherit-product, device/infinix/Max/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := Max
-PRODUCT_NAME := twrp_Max
+PRODUCT_DEVICE := Nova
+PRODUCT_NAME := twrp_Nova
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix Max
+PRODUCT_MODEL := Infinix Nova
 PRODUCT_MANUFACTURER := infinix
-PRODUCT_RELEASE_NAME := Infinix Infinix Max
+PRODUCT_RELEASE_NAME := Infinix Infinix Nova
 
-PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
