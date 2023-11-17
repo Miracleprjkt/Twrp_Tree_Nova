@@ -7,6 +7,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),Max)
+ifeq ($(TARGET_DEVICE),Nova)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
